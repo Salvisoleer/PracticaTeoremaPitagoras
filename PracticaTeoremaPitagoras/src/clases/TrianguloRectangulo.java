@@ -37,10 +37,11 @@ public class TrianguloRectangulo {
 	}
 	
 	/**
-	 * @return 0 (se implementará mas tarde)
+	 * Calcula la hipotenusa usando el teorema de Pitágoras.
+	 * @return Valor de la hipotenusa como double
 	 */
 	public double getHipotenusa() {
-		return 0;
+		return Math.sqrt(a * a + b * b);
 	}
 	/**
 	 * Calcula el perímetro.
