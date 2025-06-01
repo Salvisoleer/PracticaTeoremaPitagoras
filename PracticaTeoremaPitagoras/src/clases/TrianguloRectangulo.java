@@ -71,7 +71,7 @@ public class TrianguloRectangulo {
 
 	@Override
 	public String toString() {
-		return "TrianguloRectangulo [a=" + a + ", b=" + b + "]";
+		return "Triángulo Rectángulo [a=" + a + ", b=" + b + ", c=" + getHipotenusa() + "]";
 	}
 	
 		
